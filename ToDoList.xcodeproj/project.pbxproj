@@ -73,13 +73,13 @@
 				7D28C04A29ECEDBC000897BB /* APIModel.swift */,
 				7D69775129EAEF61002B7244 /* SceneDelegate.swift */,
 				7D69775329EAEF61002B7244 /* ViewController.swift */,
+				BAD943AC29ED0C0900CF622E /* APIService.swift */,
 				7D28C04829ECEC36000897BB /* APIViewController.swift */,
 				7D69775529EAEF61002B7244 /* Main.storyboard */,
 				7D69775B29EAEF62002B7244 /* Assets.xcassets */,
 				7D69775D29EAEF62002B7244 /* LaunchScreen.storyboard */,
 				7D69776029EAEF62002B7244 /* Info.plist */,
 				7D69775829EAEF61002B7244 /* ToDoList.xcdatamodeld */,
-				BAD943AC29ED0C0900CF622E /* APIService.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
