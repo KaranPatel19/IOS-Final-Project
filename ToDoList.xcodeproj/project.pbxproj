@@ -18,7 +18,7 @@
 		7D69775F29EAEF62002B7244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D69775D29EAEF62002B7244 /* LaunchScreen.storyboard */; };
 		7D69776829EAF117002B7244 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69776629EAF117002B7244 /* ToDoListItem+CoreDataClass.swift */; };
 		7D69776929EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69776729EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift */; };
-		7DB2086429ECCD6B00FB33E9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2086329ECCD6B00FB33E9 /* APIService.swift */; };
+		BAD943AD29ED0C0900CF622E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD943AC29ED0C0900CF622E /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		7D69776029EAEF62002B7244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D69776629EAF117002B7244 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7D69776729EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		7DB2086329ECCD6B00FB33E9 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BAD943AC29ED0C0900CF622E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +73,13 @@
 				7D28C04A29ECEDBC000897BB /* APIModel.swift */,
 				7D69775129EAEF61002B7244 /* SceneDelegate.swift */,
 				7D69775329EAEF61002B7244 /* ViewController.swift */,
-				7DB2086329ECCD6B00FB33E9 /* APIService.swift */,
 				7D28C04829ECEC36000897BB /* APIViewController.swift */,
 				7D69775529EAEF61002B7244 /* Main.storyboard */,
 				7D69775B29EAEF62002B7244 /* Assets.xcassets */,
 				7D69775D29EAEF62002B7244 /* LaunchScreen.storyboard */,
 				7D69776029EAEF62002B7244 /* Info.plist */,
 				7D69775829EAEF61002B7244 /* ToDoList.xcdatamodeld */,
+				BAD943AC29ED0C0900CF622E /* APIService.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				7D28C04929ECEC36000897BB /* APIViewController.swift in Sources */,
 				7D69776829EAF117002B7244 /* ToDoListItem+CoreDataClass.swift in Sources */,
 				7D69776929EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift in Sources */,
-				7DB2086429ECCD6B00FB33E9 /* APIService.swift in Sources */,
+				BAD943AD29ED0C0900CF622E /* APIService.swift in Sources */,
 				7D69775A29EAEF61002B7244 /* ToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
