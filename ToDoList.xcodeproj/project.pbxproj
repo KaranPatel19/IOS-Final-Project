@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7D28C04929ECEC36000897BB /* APIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28C04829ECEC36000897BB /* APIViewController.swift */; };
-		7D28C04B29ECEDBC000897BB /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28C04A29ECEDBC000897BB /* APIModel.swift */; };
 		7D69775029EAEF61002B7244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69774F29EAEF61002B7244 /* AppDelegate.swift */; };
 		7D69775229EAEF61002B7244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69775129EAEF61002B7244 /* SceneDelegate.swift */; };
 		7D69775429EAEF61002B7244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69775329EAEF61002B7244 /* ViewController.swift */; };
@@ -19,11 +18,11 @@
 		7D69776829EAF117002B7244 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69776629EAF117002B7244 /* ToDoListItem+CoreDataClass.swift */; };
 		7D69776929EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69776729EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift */; };
 		BAD943AD29ED0C0900CF622E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD943AC29ED0C0900CF622E /* APIService.swift */; };
+		BAD943AF29ED0D1E00CF622E /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD943AE29ED0D1E00CF622E /* APIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D28C04829ECEC36000897BB /* APIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewController.swift; sourceTree = "<group>"; };
-		7D28C04A29ECEDBC000897BB /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		7D69774C29EAEF61002B7244 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D69774F29EAEF61002B7244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D69775129EAEF61002B7244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		7D69776629EAF117002B7244 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7D69776729EAF117002B7244 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BAD943AC29ED0C0900CF622E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BAD943AE29ED0D1E00CF622E /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,6 @@
 			children = (
 				7D69776A29EAF138002B7244 /* ToDoListItem */,
 				7D69774F29EAEF61002B7244 /* AppDelegate.swift */,
-				7D28C04A29ECEDBC000897BB /* APIModel.swift */,
 				7D69775129EAEF61002B7244 /* SceneDelegate.swift */,
 				7D69775329EAEF61002B7244 /* ViewController.swift */,
 				BAD943AC29ED0C0900CF622E /* APIService.swift */,
@@ -80,6 +79,7 @@
 				7D69775D29EAEF62002B7244 /* LaunchScreen.storyboard */,
 				7D69776029EAEF62002B7244 /* Info.plist */,
 				7D69775829EAEF61002B7244 /* ToDoList.xcdatamodeld */,
+				BAD943AE29ED0D1E00CF622E /* APIModel.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D69775429EAEF61002B7244 /* ViewController.swift in Sources */,
-				7D28C04B29ECEDBC000897BB /* APIModel.swift in Sources */,
+				BAD943AF29ED0D1E00CF622E /* APIModel.swift in Sources */,
 				7D69775029EAEF61002B7244 /* AppDelegate.swift in Sources */,
 				7D69775229EAEF61002B7244 /* SceneDelegate.swift in Sources */,
 				7D28C04929ECEC36000897BB /* APIViewController.swift in Sources */,
